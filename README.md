@@ -21,10 +21,10 @@ Weitere Informationen unter https://periodbox.info
 
 In diesem Projekt gibt es ein paar Verzeichnisse, deren Zweck hier erklärt werden soll:
 
-* `assets   ` - die Dateien hier sind notwendig oder nützlich um andere Dateien zu erstellen. Zum Beispiel einzubettende Bilder oder Schriftarten.
+* `assets . ` - die Dateien hier sind notwendig oder nützlich um andere Dateien zu erstellen. Zum Beispiel einzubettende Bilder oder Schriftarten.
 * `downloads` - hier landen fertig gerenderte Dateien, die so gedruckt werden können (in der Regel im .pdf-Format).
-* `raw      ` - die Dateien hier sind die, die man bearbeiten möchte, wenn man etwas verändert haben will oder auch die man kopieren würde, wenn man eine neue Variante erstellen möchte.
-* `website  ` - hier wird die statische Webseite periodbox.info hinterlegt.
+* `raw . . .` - die Dateien hier sind die, die man bearbeiten möchte, wenn man etwas verändert haben will oder auch die man kopieren würde, wenn man eine neue Variante erstellen möchte.
+* `website .` - hier wird die statische Webseite periodbox.info hinterlegt.
 
 ### Mitmachen
 
