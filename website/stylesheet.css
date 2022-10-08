@@ -1,0 +1,15 @@
+
+
+img.featuredimage {
+	float:left;
+	max-width:50%;
+	max-height:30em;
+}
+
+nav ul li {
+	display:inline-block;
+}
+
+h2, h3 {
+	clear:both;
+}
