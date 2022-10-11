@@ -1,23 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 		<title>Periodbox</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="stylesheet.css" />
+		<link rel="profile" href="http://microformats.org/profile/hcard">
 	</head>
 	<body>
 		<nav>
 			<ul>
 				<li><a href="#download">Download</a></li>
-				<li><a href="#history">Ursprünge</a></li>
-				<li><a href="./galery">Gallerie</a></li>
+				<li><a href="#history">Ursprung</a></li>
+				<li><a href="./galery.html">Gallerie</a></li>
 				<li><a href="#contribute">Mitmachen</a></li>
 				<li><a href="#contact">Kontakt</a></li>
-				<li><a href="#language">DE-de</a></li>
+				<li><a href="#language">DE-de</a>
+					<ul id="languagepicker">
+						<li><a href="./index-de.html">DE-de</a></li>
+						<li><a href="./index-en.html">EN-us</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
 		<p id="introduction">
-			<img class="featuredimage" src="./images/demo01.jpg" alt="Das Foto zeigt eine fertig zusammengesetzte periodbox, groß lesbar ist: Nimm was du brauchst, gib was du entbehren kannst. Klein darunter die Erklärung wie die Box funktioniert." />
+			<img class="featuredimage" src="./images/demo01.png" alt="Das Foto zeigt eine fertig zusammengesetzte periodbox, groß lesbar ist: Nimm was du brauchst, gib was du entbehren kannst. Klein darunter die Erklärung wie die Box funktioniert." />
+			Hey, schön, dass du auf diese Webseite gefunden hast, denn
+			wahrscheinlich bedeutet das, dass du irgendwo eine
+			<span class="periodbox">periodbox</span> gesehen und den
+			QR-code gescannt hast oder dass dir von einer begeisterten
+			AktivistIn die <span class="periodbox">periodbox</span>
+			empfohlen wurde, beides ist großartig!
 			Die <span class="periodbox">periodbox</span> ist ein Papp-
 			oder Papierschachtel, die dazu gedacht ist auf den Damentoiletten
 			(oder Toiletten für Personen die menstruieren) zu stehen
@@ -59,7 +71,8 @@
 		Probleme.</p>
 		<h2 id="contribute">Mitmachen</h2>
 		<p>Die <span class="periodbox">periodbox</span> ist ein
-		Mitmachprojekt, es ist vollständig <a href="">auf GitHub
+		Mitmachprojekt, es ist vollständig
+		<a href="https://github.com/DeusFigendi/periodbox">auf GitHub
 		verfügbar,</a> die Downloads, die Vorlagen, selbst diese
 		Webseite und an allen Elementen davon kann man mitarbeiten.
 		Wenn du keinen GitHub-Account hast und auch keinen möchtest
@@ -110,15 +123,34 @@
 		an info@periodbox.info oder nutze einen der SocialMedia-Kanäle:
 		</p>
 		<ul id="socialmedia">
-			<li><a href="https://mastodon.lol/web/@periodbox"><img src="./images/sm_mastodon.png" /></a></li>
-			<li><a href="https://mastodon.lol/web/@periodbox"><img src="./images/sm_mastodon.png" /></a></li>
+			<li><a href="https://mastodon.lol/web/@periodbox"><img src="./images/sm_mastodon.png" alt="mastodon" /></a></li>
+			<li><a href="https://github.com/DeusFigendi/periodbox"><img src="./images/sm_github.png" alt="github" /></a></li>
 		</ul>
 			Verantwortlich im Sinne des Telemediengesetzes ist
+	
+	
 		
 		<div class="vcard">
- <a class="url fn" href="https://tantek.com/">Tantek Çelik</a>
-</div>
+			<span class="fn">Kai-Uwe Kramer</span>
+			<div class="adr">
+				<div class="street-address">Straße</div>
+				<span class="postal-code">PLZ</span>
+				<span class="locality">Ort</span>
+				(
+				<span class="region">Niedersachsen</span>
+				,
+				<span class="country-name">Deutschland</span>
+				)
+			</div>
+			<a class="url xmpp" >Jabber</a>
+			-
+			<a class="email" >email</a>
+			<p style="font-size:smaller;">This <a href="http://microformats.org/wiki/hcard">hCard</a> created with the <a href="http://microformats.org/code/hcard/creator">hCard creator</a>.</p>
+		</div>
+
+
+
 		
-		</p>
+		<script language="javascript" type="text/javascript" src="javascript.js"></script>
 	</body>
 </html>

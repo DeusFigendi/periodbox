@@ -1,15 +1,123 @@
+@font-face {
+    font-family: 'Devant';
+    src: url('./fonts/Devant-Medium.eot');
+    src: local('Devant Medium'), local('Devant-Medium'),
+        url('./fonts/Devant-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Devant-Medium.woff2') format('woff2'),
+        url('./fonts/Devant-Medium.woff') format('woff'),
+        url('./fonts/Devant-Medium.ttf') format('truetype'),
+        url('./fonts/Devant-Medium.svg#Devant-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'lyon-crestregular';
+    src: url('./fonts/lyon-crest-webfont.woff2') format('woff2'),
+         url('./fonts/lyon-crest-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	  font-family: Dejavu Sans, sans-serif;
+	  max-width:50em;
+	  background-color:#f3c39a;
+	  text-align:center;
+}
+
+a {
+	color:#b8f39a;
+	text-shadow: 0.1em 0.1em 0.1em black;
+}
+
+#languagepicker li {
+	display:block
+}
+
+#languagepicker {
+	display:none;
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	margin-top:-1em;
+}
+
+li:hover #languagepicker,#languagepicker.opened  {
+	display:block;
+}
 
 img.featuredimage {
 	float:left;
-	max-width:50%;
+	max-width:90%;
 	max-height:30em;
+	margin-right:2em;
+	margin-left:2em;
+}
+
+nav ul li a {
+	  text-decoration: underline overline;
 }
 
 nav ul li {
 	display:inline-block;
+	font-family: Devant, sans-serif;
+	font-size:1.5em;
 }
 
 h2, h3 {
 	clear:both;
+	font-family: lyon-crestregular, serif;
+	color:#9f9af3;
+	text-shadow: 0.2em 0.2em 0.2em black;
+}
+
+h2 {
+	font-size:3em;
+	margin-bottom:0.1em;
+}
+h3 {
+	font-size:2em;
+	margin-bottom:0.1em;
+}
+
+span.periodbox {
+	font-family: Devant, sans-serif;
+	font-size:2em;
+	line-height:0.5;
+	opacity:0.5;
+}
+
+ul#socialmedia li {
+	display:inline-block;
+}
+
+ul#socialmedia li a img {
+	max-width:2em;
+	max-height:2em;
+}
+
+p {
+	padding-left:2em;
+	margin-top:0.1em;
+	line-height:1.5;
+}
+
+#galery figure img {
+	display:block;
+	max-width: 100%;
+	max-height: 40em;
+}
+
+#galery figure {
+	width:33em;
+	max-width:90%;
+	height:50em;
+}
+
+.vcard {
+	text-align:left;
+	margin-left:6em;
 }
