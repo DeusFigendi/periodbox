@@ -32,3 +32,7 @@ Wenn Sie oder wenn du mitmachen möchtest, so bietet sich am Ehesten an die Date
 Die Lizenz der Dateien ist (wie oben angegeben) cc-by-nc, es wäre daher cool wenn Varianten unter der selben Lizenz lizensiert würden, wenn du deine Version gerne unter einer oder mehreren anderen Lizenzen anbieten möchtest ist das erstmal vollkommen legal, aber lass uns am Besten kurz drüber reden, vielleicht möchte ich dann Texte hier im Readme oder auf der Webseite anpassen oder so.
 
 Ich bin zum Beispiel relativ unzufrieden mit dieser README, wenn jemandem bessere und coolere Formulierungen einfallen um das selbe zu sagen, go ahead!
+
+<a href="http://periodbox.info">Webseite</a>
+<a rel="me" href="https://mastodon.lol/@periodbox">Mastodon</a>
+<a href="https://pixelfed.photos/i/web/profile/491974277438459386">Pixelfed</a>
